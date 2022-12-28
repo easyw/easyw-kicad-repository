@@ -1,0 +1,42 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "pcb-action-tools",
+    "description": "A suite of kicad pcbnew action plugin tools",
+    "description_full": "Annular Ring Checker, Snap Selected Footprint(s) to Grid, Fabrication Footprint Position, Move Selected Drawings to chosen Layer, Export pcb technical layers to DXF, Checking 3D missing models",
+    "identifier": "com.github.easyw.kicad-action-tools",
+    "type": "plugin",
+    "author": {
+        "name": "easyw",
+        "contact": {
+            "email": "easyw@katamail.com"
+        }
+    },
+    "license": "GPL-2.0",
+    "resources": {
+        "Github": "https://github.com/easyw/kicad-action-tools",
+        "Readme": "https://github.com/easyw/kicad-action-tools/blob/master/README.md"
+    },
+    "tags": [
+        "annular",
+        "pcbnew",
+        "dxf",
+        "grid",
+        "mcad"
+    ],
+    "versions": [
+        {
+            "version": "1.0.2",
+            "status": "stable",
+            "kicad_version": "5.1",
+            "download_url": "https://github.com/easyw/kicad-action-tools/releases/download/v1.0.2/pcb-action-tools_v1.0.2_pcm.zip",
+            "download_sha256": "2c97de192c5426dff8eef4cdeb437c75dd8a9db902ed35b6a48b3067f712ffb8",
+            "download_size": 1034692,
+            "install_size": 1230472,
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+    ]
+}
